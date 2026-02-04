@@ -143,3 +143,16 @@ border-top:1px solid #1f2a3a;
   text-shadow: 0 0 10px #9FEF00;
 }
 
+.cert-title {
+  margin-top: 25px;
+  padding-top: 15px;
+  font-size: 1.2rem;
+  letter-spacing: 3px;
+  text-align: center;
+  color: #9fef00;
+  border-top: 1px solid rgba(159,239,0,0.2);
+  font-weight: 700;
+  opacity: 0.9;
+}
+
+
