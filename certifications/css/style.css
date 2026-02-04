@@ -1,0 +1,145 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:'JetBrains Mono', monospace;
+background:#0B121F;
+color:#C9D1D9;
+}
+
+header{
+text-align:center;
+padding:60px 20px;
+background:#05080f;
+border-bottom:1px solid #9FEF00;
+}
+
+header h1{
+color:#9FEF00;
+font-size:28px;
+text-shadow:0 0 10px #9FEF00;
+}
+
+header p{
+margin-top:10px;
+color:#8B949E;
+}
+
+header a{
+color:#9FEF00;
+text-decoration:none;
+font-weight:bold;
+}
+
+main{
+max-width:1100px;
+margin:auto;
+padding:40px 20px;
+}
+
+h2{
+color:#9FEF00;
+margin:40px 0 20px;
+border-left:4px solid #9FEF00;
+padding-left:10px;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.card{
+background:#111927;
+border:1px solid #1f2a3a;
+padding:20px;
+border-radius:12px;
+position:relative;
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-8px);
+box-shadow:0 0 20px rgba(159,239,0,.4);
+border-color:#9FEF00;
+}
+
+.icon{
+color:#9FEF00;
+font-size:14px;
+margin-bottom:10px;
+}
+
+.card h3{
+color:#9FEF00;
+font-size:16px;
+margin-bottom:5px;
+}
+
+.card span{
+color:#8B949E;
+font-size:13px;
+}
+
+.card img{
+width:90px;
+margin:15px auto;
+display:block;
+filter:brightness(1.2);
+}
+
+.card a{
+display:block;
+text-align:center;
+margin-top:10px;
+padding:8px;
+border:1px solid #9FEF00;
+border-radius:6px;
+color:#9FEF00;
+transition:.3s;
+}
+
+.card a:hover{
+background:#9FEF00;
+color:#0B121F;
+box-shadow:0 0 10px #9FEF00;
+}
+
+footer{
+text-align:center;
+padding:30px;
+color:#8B949E;
+border-top:1px solid #1f2a3a;
+}
+
+
+.icon-svg {
+  display:block;
+  margin:0 auto 10px;
+  width:40px;
+  height:40px;
+}
+
+.badge-text {
+  font-size:12px;
+  color:#8B949E;
+  text-align:center;
+  margin-bottom:5px;
+}
+
+.linkedin-link {
+  color: #9FEF00;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s, text-shadow 0.3s;
+}
+
+.linkedin-link:hover {
+  color: #ffffff;
+  text-shadow: 0 0 10px #9FEF00;
+}
+
